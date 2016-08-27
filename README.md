@@ -1,2 +1,2 @@
 # amanskywalker.github.io
-a site for me using github pages
+a site personal using github pages
