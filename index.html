@@ -5,6 +5,13 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
+	<!-- cache controller for faster rendering -->
+  <meta http-equiv="Cache-control" content="private, max-age=31104000"> <!-- Cache for almost one year-->
+	<!--
+	<meta http-equiv="Cache-control" content="public">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-store">
+	-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Aman Skywalker</title>
@@ -189,7 +196,7 @@
 	</div>
 	<!-- All the scripts at the end of the page to increase speed -->
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js" cache-control></script>
 	<!-- jQuery Cookie -->
 	<script src="js/jquery.cookie.js"></script>
 	<script>
